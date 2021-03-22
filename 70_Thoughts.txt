@@ -1,0 +1,16 @@
+One Step at a time
+March 21, 2021
+
+~~~ GIT VERSION CONTROL ~~~
+- git init              : initializes git folder
+- git status            : check the staging area (see what hasn't been committed)
+- git add [file]        : add the file to the staging area
+- git add .             : add everything in the directory
+- git commit -m ""      : commit all files in staging area where -m "" is the message
+- git log               : see what commits have been made   
+- git diff [file]       : see difference between current file and the one stored in local repository
+- git checkout [file]   : revert file to last version that was committed
+
+~~~ GITHUB ~~~
+- git remote add origin [repository link]   : adds remote repository
+- git push -u origin master                 : push local repository to the remote repository (-u option means to link up repositories) origin=name of remote master=name of branch
